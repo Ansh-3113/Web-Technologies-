@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frameset Example</title>
+</head>
+
+<frameset cols="30%, 70%">
+    
+    <frame src="left.html" name="leftFrame" scrolling="auto">
+
+    <frameset rows="50%, 50%">
+        <frame src="top.html" name="topFrame" scrolling="auto">
+        <frame src="bottom.html" name="bottomFrame" scrolling="auto">
+    </frameset>
+
+</frameset>
+
+</html>
